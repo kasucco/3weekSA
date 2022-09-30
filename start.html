@@ -10,21 +10,43 @@
 </head>
 <body>
     <form action onsubmit = "submit();">
-    "First name : "
+    First name : 
     <br>
-    <input id="name" type+"text" required>
+    <input id="name" type="text" required>
     <br>
-    " Last name : "
+    Last name : 
     <br>
-    " Email : "
+    <input type="text" required>
     <br>
-    <input type+"text" required>
+    Email : 
     <br>
-    " Gender : "
+    <input type="text" required>
+    <br>
+    Gender : 
     <input type="radio" name="gender" value="male_info" required>
-    " male "
+    male
     <input type="radio" name="gender" value="male_info" required>
-    " Female"
+    Female
+    <br>
+    Favorite :
+    <input type="checkbox" name="lang" value="html_box">
+    HTML
+    <input type="checkbox" name="lang" value="java_box">
+    JAVA
+    <input type="checkbox" name="lang" value="js_box">
+    JavaScript
+    <br>
+    Browser :
+    <select id="browsers" name="browsers" required>
+        <option value="크롬" selected>크롬</option>
+        <option value="사파리" selected>사파리</option>
+        <option value="엣지" selected>엣지</option>
+    </select>
+    <br>
+    Birthday :
+    <input type="date" name="birthday">
+    <br>
+    <input type="submit">
 </form>
     
 </body>
